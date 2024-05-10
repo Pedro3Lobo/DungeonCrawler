@@ -53,7 +53,7 @@ public class VirtualDrugsManager : MonoBehaviour
     private void StartRandomChanges()
     {
         startChanging = true;
-        targetIntensity = Random.Range(-50f, 50f); // Initial random distortion
+        targetIntensity = Random.Range(-100f, 100f); // Initial random distortion
         lerpTimer = 0f; // Start interpolation
     }
 }
